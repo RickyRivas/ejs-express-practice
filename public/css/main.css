@@ -1,0 +1,23 @@
+body {
+ background-color: #eee;
+ font-size: 2rem;
+}
+.wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+}
+
+header, footer {
+    background-color: ghostwhite;
+    padding: 20px;
+}
+.layout-sidebar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+main {
+    background-color: red;
+}
